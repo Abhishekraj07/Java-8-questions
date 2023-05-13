@@ -57,6 +57,7 @@ public class Main {
         System.out.println("_________");
         System.out.println(collect2);
 
+
         Optional<String> first = Arrays.stream(s.split("")).filter(p -> s.indexOf(p) == s.lastIndexOf(p)).toList().stream().findFirst();
         System.out.println("_________eq");
         System.out.println(first.orElse("not found"));
