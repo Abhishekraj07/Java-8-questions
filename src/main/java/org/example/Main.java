@@ -56,6 +56,7 @@ public class Main {
 
         System.out.println("_________");
         System.out.println(collect2);
+        //test
 
 
         Optional<String> first = Arrays.stream(s.split("")).filter(p -> s.indexOf(p) == s.lastIndexOf(p)).toList().stream().findFirst();
